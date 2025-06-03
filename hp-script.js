@@ -46,8 +46,8 @@ function loadJobs() {
                 <td>${job.id}</td>
                 <td>${job.title}</td>
                 <td>
-                    <button onclick="editJob(${job.id}, '${job.title.replace(/'/g, "\\'")}')">Edit Job</button>
-                    <button onclick="deleteJob(${job.id})">Delete Job</button>
+                    <button onclick="editJob(${job.id}, '${job.title.replace(/'/g, "\\'")}')">Edit</button>
+                    <button onclick="deleteJob(${job.id})">Deleasdasdte</button>
                 </td>
             `;
 

@@ -231,6 +231,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["job-title"])) {
         </div>
     </div>
 
-    <script src="hp-script.js"></script>
+    <script src="hp-script.js" defer></script>
+
 </body>
 </html>
