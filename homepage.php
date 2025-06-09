@@ -183,7 +183,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["job-title"])) {
                                     echo "<tr>";
                                     echo "<td>" . $row['id'] . "</td>";
                                     echo "<td>" . htmlspecialchars($row['title']) . "</td>";
-                                    echo "<td><button onclick='editJob(" . $row['id'] . ")'>Edit</button><button onclick='deleteJob(" . $row['id'] . ")'>Delete</button></td>";
+                                    echo "<td><button onclick='deleteJob(" . $row['id'] . ")'>Delete</button></td>";
+                                    echo "<td><button onclick='editJob(" . $row['id'] . ")'>Edit</button></td>";
                                     echo "</tr>";
                                 }
                             }
